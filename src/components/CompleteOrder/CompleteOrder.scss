@@ -1,0 +1,21 @@
+.complete-container {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(233, 255, 241);
+  margin-bottom: 20px;
+
+  .complete-text {
+    flex: 4;
+    .complete-colored {
+      color: rgb(79, 173, 119);
+    }
+  }
+  .complete-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 150px;
+    }
+  }
+}

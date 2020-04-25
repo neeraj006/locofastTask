@@ -1,0 +1,13 @@
+.download-anchor {
+  text-decoration: none;
+  .download-btn {
+    display: flex;
+    align-items: center;
+    background: white;
+
+    img {
+      height: 10px;
+      margin-left: 20px;
+    }
+  }
+}

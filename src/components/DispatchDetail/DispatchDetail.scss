@@ -1,0 +1,30 @@
+.dispatch-container {
+  display: flex;
+  margin: 20px 0;
+
+  .dispatch-logo {
+    img {
+      margin-right: 30px;
+      width: 120px;
+    }
+  }
+  .dispatch-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    h2 {
+      margin-top: 0;
+    }
+    .tracking-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .bills-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
